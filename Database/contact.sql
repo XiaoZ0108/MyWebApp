@@ -1,0 +1,7 @@
+CREATE TABLE contact (
+name VARCHAR(40) NOT NULL,
+email VARCHAR(190) NOT NULL,
+phnum INT NOT NULL,
+Message VARCHAR(255) NOT NULL,
+UNIQUE KEY email (email)
+);
